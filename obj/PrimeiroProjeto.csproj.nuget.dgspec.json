@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ESTUDOS\\csharp-01-aula_4\\PrimeiroProjeto.csproj": {}
+    "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\PrimeiroProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ESTUDOS\\csharp-01-aula_4\\PrimeiroProjeto.csproj": {
+    "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\PrimeiroProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ESTUDOS\\csharp-01-aula_4\\PrimeiroProjeto.csproj",
+        "projectUniqueName": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\PrimeiroProjeto.csproj",
         "projectName": "PrimeiroProjeto",
-        "projectPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ESTUDOS\\csharp-01-aula_4\\PrimeiroProjeto.csproj",
+        "projectPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\PrimeiroProjeto.csproj",
         "packagesPath": "C:\\Users\\LuizHenriqueOliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ESTUDOS\\csharp-01-aula_4\\obj\\",
+        "outputPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,30 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

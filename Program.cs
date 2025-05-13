@@ -1,4 +1,31 @@
 ﻿// Screen Sound
+Musica musica1 = new Musica();
+musica1.nome = "Apaga Apaga";
+musica1.artista = "Danilo e Davi";
+musica1.duracao = 258;
+musica1.disponivel = true; 
+
+Musica musica2 = new Musica();
+musica2.nome = "Tubarões";
+musica2.artista = "Diego & Victor Hugo";
+musica2.duracao = 242;
+musica2.disponivel = true;
+
+Musica musica3 = new Musica();
+musica3.nome = "Não Era Love";
+musica3.artista = "Luan Pereira,MC Tuto,Grelo";
+musica3.duracao = 224;
+musica3.disponivel = false;
+
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();
+musica3.ExibirFichaTecnica();
+
+musica1.ExibirNomeEArtista();
+musica2.ExibirNomeEArtista();
+musica3.ExibirNomeEArtista();
+
+
 string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
 //List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso"};  
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
@@ -150,3 +177,6 @@ void ExibirMedia()
 
 
 ExibirOpcoesDoMenu();
+
+
+
