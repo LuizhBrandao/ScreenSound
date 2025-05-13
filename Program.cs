@@ -1,9 +1,26 @@
-﻿Musica musica1 = new Musica();
+﻿Album albumDoBrunoMars = new Album();
+albumDoBrunoMars.Nome = "24K Magic";
+
+Musica musicaBm1 = new Musica();
+musicaBm1.Nome = "Chunky";
+musicaBm1.Duracao = 306;
+
+Musica musicaBm2 = new Musica();
+musicaBm2.Nome = "Perm";
+musicaBm2.Duracao = 330;
+
+albumDoBrunoMars.AdicionarMusica(musicaBm1);
+albumDoBrunoMars.AdicionarMusica(musicaBm2);
+
+albumDoBrunoMars.ExibirMusicasDoAlbum();
+
+Musica musica1 = new Musica();
 musica1.Nome = "Apaga Apaga";
 musica1.Artista = "Danilo e Davi";
 musica1.Duracao = 258;
 musica1.Disponivel = true;
-Console.WriteLine(musica1.DescricaoResumida);
+
+//Console.WriteLine(musica1.DescricaoResumida);
 
 Musica musica2 = new Musica();
 musica2.Nome = "Tubarões";
