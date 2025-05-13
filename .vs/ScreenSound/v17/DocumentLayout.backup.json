@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Musica.cs",
               "RelativeDocumentMoniker": "Musica.cs",
               "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Musica.cs",
               "RelativeToolTip": "Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T19:23:03.547Z",
               "EditorCaption": ""
