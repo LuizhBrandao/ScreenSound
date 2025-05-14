@@ -1,31 +1,6 @@
-﻿Banda brunomars = new Banda("Bruno Mars");
-
-Album albumDoBrunoMars = new Album("24K Magic");
-
-Musica musicaBm1 = new Musica(brunomars, "Chunky")
-{
-    Duracao = 306,
-    Disponivel = true,
-};
-
-Musica musicaBm2 = new Musica(brunomars, "Perm")
-{
-    Duracao = 330,
-    Disponivel = false,
-};
-
-albumDoBrunoMars.AdicionarMusica(musicaBm1);
-albumDoBrunoMars.AdicionarMusica(musicaBm2);
-brunomars.AdiciinarAlbum(albumDoBrunoMars);
-
-musicaBm1.ExibirFichaTecnica();
-musicaBm2.ExibirFichaTecnica();
-albumDoBrunoMars.ExibirMusicasDoAlbum();
-brunomars.ExibirDiscografia();
-
-
-string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
-//List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso"};  
+﻿// Primeiro programa em C#
+// C#: criando sua primeira aplicação
+string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";  
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
 bandasRegistradas.Add("Linkin Park", new List<int> { 10, 8, 6 });
 bandasRegistradas.Add("The Beatles", new List<int>());
@@ -67,7 +42,7 @@ void ExibirOpcoesDoMenu()
             break;
         case 4: ExibirMedia();
             break;
-        case -1: Console.WriteLine("Tchau tchau :)");
+        case -1: Console.WriteLine("Tchau tchau :)\n");
             break;
         default: Console.WriteLine("Opção inválida");
             break;
@@ -92,11 +67,6 @@ void MostrarBandasRegistradas()
     Console.Clear();
     ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
     
-    //for (int i = 0; i < listaDasBandas.Count; i++)
-    //{
-        //Console.WriteLine($"Banda: {listaDasBandas[i]}");
-    //}
-
     foreach (string banda in bandasRegistradas.Keys)
     {
         Console.WriteLine($"Banda: {banda}");
@@ -120,10 +90,7 @@ void ExibirTituloDaOpcao(string titulo)
 
 void AvaliarUmaBanda()
 {
-    //digite qual banda deseja avaliar
-    // se a banda exitir no dicionario >> atribuir uma nota
-    // senão, volta ao menu principal
-
+    
     Console.Clear();
     ExibirTituloDaOpcao("Avaliar banda");
     Console.Write("Digite o nome da banda que deseja avaliar: ");
@@ -173,8 +140,47 @@ void ExibirMedia()
     }
 }
 
-
 ExibirOpcoesDoMenu();
 
 
+//Orientação a Objetos
+//C#: aplicando a Orientação a Objetos
+
+Banda brunomars = new Banda("Bruno Mars");
+Album albumDoBrunoMars = new Album("24K Magic");
+
+Musica musicaBm1 = new Musica(brunomars, "Chunky")
+{
+    Duracao = 306,
+    Disponivel = true,
+};
+
+Musica musicaBm2 = new Musica(brunomars, "Perm")
+{
+    Duracao = 330,
+    Disponivel = false,
+};
+
+albumDoBrunoMars.AdicionarMusica(musicaBm1);
+albumDoBrunoMars.AdicionarMusica(musicaBm2);
+brunomars.AdiciinarAlbum(albumDoBrunoMars);
+
+musicaBm1.ExibirFichaTecnica();
+musicaBm2.ExibirFichaTecnica();
+albumDoBrunoMars.ExibirMusicasDoAlbum();
+brunomars.ExibirDiscografia();
+
+Episodio ep1 = new(1, "Técnicas de facilitação", 45);
+ep1.AdicionarConvidados("Maria");
+ep1.AdicionarConvidados("Marcelo");
+
+Episodio ep2 = new(2, "Técnicas de aprendizado", 71);
+ep2.AdicionarConvidados("Luiz");
+ep2.AdicionarConvidados("Lucas");
+ep2.AdicionarConvidados("Ana");
+
+Podcast podcast = new("DigitalCast", "Sidney");
+podcast.AdicionarEpisodio(ep1);
+podcast.AdicionarEpisodio(ep2);
+podcast.ExibirDetalhes();
 

@@ -17,7 +17,7 @@
         Console.WriteLine($"Discografia da banda {Nome}");
         foreach (Album album in albums)
         {
-            Console.WriteLine($"Álbum: {album.Nome} ({album.DuracaoTotal})");
+            Console.WriteLine($"Álbum: {album.Nome} ({album.DuracaoTotal})\n");
         }
     }
 }
