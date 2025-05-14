@@ -1,4 +1,5 @@
-﻿class Musica
+﻿namespace ScreenSound.Modelos;
+class Musica
 {
 
     public Musica(Banda artista, string nome)
@@ -12,11 +13,8 @@
     public Banda Artista {  get; }   
     public int Duracao {  get; set; }  
     public bool Disponivel {  get; set; }
-    public Genero Genero { get; set; }  
+    public string DescricaoResumida => $"A música {Nome} pertence à banda {Artista}";  
     
-
-
-
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome da musica: {Nome}");

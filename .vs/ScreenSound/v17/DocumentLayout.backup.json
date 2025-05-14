@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\modelos\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:modelos\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\episodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:episodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\modelos\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:modelos\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Podcast.cs",
-              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Podcast.cs",
-              "RelativeDocumentMoniker": "Podcast.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Podcast.cs",
-              "RelativeToolTip": "Podcast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Title": "Musica.cs",
+              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Musica.cs",
+              "RelativeDocumentMoniker": "Modelos\\Musica.cs",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Musica.cs",
+              "RelativeToolTip": "Modelos\\Musica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T16:37:36.541Z",
+              "WhenOpened": "2025-05-14T17:48:11.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Banda.cs",
+              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Banda.cs",
+              "RelativeDocumentMoniker": "Modelos\\Banda.cs",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Banda.cs",
+              "RelativeToolTip": "Modelos\\Banda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:33:13.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Album.cs",
+              "RelativeDocumentMoniker": "Modelos\\Album.cs",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Modelos\\Album.cs",
+              "RelativeToolTip": "Modelos\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:31:18.179Z",
               "EditorCaption": ""
             },
             {
@@ -49,35 +75,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAmwK4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:42:17.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Banda.cs",
-              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Banda.cs",
-              "RelativeDocumentMoniker": "Banda.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Banda.cs",
-              "RelativeToolTip": "Banda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T16:34:36.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Episodio.cs",
-              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Episodio.cs",
-              "RelativeDocumentMoniker": "Episodio.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Episodio.cs",
-              "RelativeToolTip": "Episodio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:31:05.562Z",
+              "WhenOpened": "2025-05-14T17:15:51.585Z",
               "EditorCaption": ""
             }
           ]
