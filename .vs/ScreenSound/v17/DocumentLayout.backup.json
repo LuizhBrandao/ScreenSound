@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|c:\\users\\luizhenriqueoliveira\\desktop\\screensound\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DA9F2E-FBC0-6594-97CD-8DEE0978F9E9}|ScreenSound.csproj|solutionrelative:genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +34,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Banda.cs",
+              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Banda.cs",
+              "RelativeDocumentMoniker": "Banda.cs",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Banda.cs",
+              "RelativeToolTip": "Banda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:00:37.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Genero.cs",
+              "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Genero.cs",
+              "RelativeDocumentMoniker": "Genero.cs",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Genero.cs",
+              "RelativeToolTip": "Genero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:56:27.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Musica.cs",
               "RelativeDocumentMoniker": "Musica.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Musica.cs",
-              "RelativeToolTip": "Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Musica.cs*",
+              "RelativeToolTip": "Musica.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T20:27:10.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T20:07:28.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Album.cs",
               "RelativeDocumentMoniker": "Album.cs",
-              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Album.cs*",
-              "RelativeToolTip": "Album.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LuizHenriqueOliveira\\Desktop\\ScreenSound\\Album.cs",
+              "RelativeToolTip": "Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T20:00:23.249Z",
               "EditorCaption": ""

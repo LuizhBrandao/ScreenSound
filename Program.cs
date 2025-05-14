@@ -1,48 +1,27 @@
-﻿Album albumDoBrunoMars = new Album();
-albumDoBrunoMars.Nome = "24K Magic";
+﻿Banda brunomars = new Banda("Bruno Mars");
 
-Musica musicaBm1 = new Musica();
-musicaBm1.Nome = "Chunky";
-musicaBm1.Duracao = 306;
+Album albumDoBrunoMars = new Album("24K Magic");
 
-Musica musicaBm2 = new Musica();
-musicaBm2.Nome = "Perm";
-musicaBm2.Duracao = 330;
+Musica musicaBm1 = new Musica(brunomars, "Chunky")
+{
+    Duracao = 306,
+    Disponivel = true,
+};
+
+Musica musicaBm2 = new Musica(brunomars, "Perm")
+{
+    Duracao = 330,
+    Disponivel = false,
+};
 
 albumDoBrunoMars.AdicionarMusica(musicaBm1);
 albumDoBrunoMars.AdicionarMusica(musicaBm2);
+brunomars.AdiciinarAlbum(albumDoBrunoMars);
 
+musicaBm1.ExibirFichaTecnica();
+musicaBm2.ExibirFichaTecnica();
 albumDoBrunoMars.ExibirMusicasDoAlbum();
-
-Musica musica1 = new Musica();
-musica1.Nome = "Apaga Apaga";
-musica1.Artista = "Danilo e Davi";
-musica1.Duracao = 258;
-musica1.Disponivel = true;
-
-//Console.WriteLine(musica1.DescricaoResumida);
-
-Musica musica2 = new Musica();
-musica2.Nome = "Tubarões";
-musica2.Artista = "Diego & Victor Hugo";
-musica2.Duracao = 242;
-musica2.Disponivel = true;
-Console.WriteLine(musica2.Disponivel);
-
-Musica musica3 = new Musica();
-musica3.Nome = "Não Era Love";
-musica3.Artista = "Luan Pereira,MC Tuto,Grelo";
-musica3.Duracao = 224;
-musica3.Disponivel = false;
-Console.WriteLine(musica3.Disponivel);
-
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
-musica3.ExibirFichaTecnica();
-
-musica1.ExibirNomeEArtista();
-musica2.ExibirNomeEArtista();
-musica3.ExibirNomeEArtista();
+brunomars.ExibirDiscografia();
 
 
 string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
