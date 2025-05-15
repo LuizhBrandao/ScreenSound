@@ -1,6 +1,13 @@
 ﻿namespace ScreenSound.Modelos;
-class Album
+internal class Album
 {
+    public static int ContadorDeObjetos = 0;
+
+    public Album()
+    {
+        ContadorDeObjetos++;
+    }
+
     private List<Musica> musicas = new List<Musica>();
 
     public Album(string nome)
