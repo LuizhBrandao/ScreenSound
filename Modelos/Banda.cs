@@ -18,7 +18,7 @@ internal class Banda
         }
     }
     public List<Album> Albums => albums;
-    public void AdiciinarAlbum(Album album)
+    public void AdicionarAlbum(Album album)
     {
         albums.Add(album);
     }
